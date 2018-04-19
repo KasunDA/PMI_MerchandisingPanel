@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="204c242cbd4531e1"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="LIVINGROOM"
+		osversion="Windows 8 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="4/18/2018 5:12:24 PM"
+		timestampiso="2018-04-18T12:12:24"
+		endtime="4/18/2018 5:12:39 PM"
+		timeoutfactor="1"
+		module="GenerateReport">
+		<detail>
+			GenerateReport
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.528"
+			timeRelativeToTestModuleStartTime="00:06.528"
+			timeWallClock="17:12:31"
+			time="00:06.528"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varStartDate, varEndDate
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.747"
+			timeRelativeToTestModuleStartTime="00:06.747"
+			timeWallClock="17:12:31"
+			time="00:06.747"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PmiMerchandisingPanel.ReportType' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='mks.rtdtradetracker.com:1101']//select[#'actionType']"
+				itempath=".//select[#'actionType']"
+				fullname="PMI_MerchandisingPanelRepository.PmiMerchandisingPanel.ReportType"
+				id="a5d65c610fdc43c58252f41c5d352bbe"
+				timeout="40000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMI_MerchandisingPanel\PMI_MerchandisingPanel\TestCases\ReportGeneration\GenerateReport.cs"
+				codeline="108"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.207"
+			timeRelativeToTestModuleStartTime="00:13.207"
+			timeWallClock="17:12:38"
+			time="00:13.207"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Down}'.
+			</message>
+			<metainfo
+				itemindex="7"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMI_MerchandisingPanel\PMI_MerchandisingPanel\TestCases\ReportGeneration\GenerateReport.cs"
+				codeline="112"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.549"
+			timeRelativeToTestModuleStartTime="00:13.549"
+			timeWallClock="17:12:38"
+			time="00:13.549"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Down}'.
+			</message>
+			<metainfo
+				itemindex="8"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMI_MerchandisingPanel\PMI_MerchandisingPanel\TestCases\ReportGeneration\GenerateReport.cs"
+				codeline="116"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.798"
+			timeRelativeToTestModuleStartTime="00:13.798"
+			timeWallClock="17:12:38"
+			time="00:13.798"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Down}'.
+			</message>
+			<metainfo
+				itemindex="9"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMI_MerchandisingPanel\PMI_MerchandisingPanel\TestCases\ReportGeneration\GenerateReport.cs"
+				codeline="120"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.066"
+			timeRelativeToTestModuleStartTime="00:14.066"
+			timeWallClock="17:12:38"
+			time="00:14.066"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="10"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMI_MerchandisingPanel\PMI_MerchandisingPanel\TestCases\ReportGeneration\GenerateReport.cs"
+				codeline="124"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="58d2ecb24eca2f8"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="LIVINGROOM"
+		osversion="Windows 8 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="4/18/2018 5:07:50 PM"
+		timestampiso="2018-04-18T12:07:50"
+		endtime="4/18/2018 5:08:05 PM"
+		timeoutfactor="1"
+		module="GenerateReport">
+		<detail>
+			GenerateReport
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.822"
+			timeRelativeToTestModuleStartTime="00:06.822"
+			timeWallClock="17:07:57"
+			time="00:06.822"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varStartDate, varEndDate
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.009"
+			timeRelativeToTestModuleStartTime="00:07.009"
+			timeWallClock="17:07:57"
+			time="00:07.009"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PmiMerchandisingPanel.ReportType' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='mks.rtdtradetracker.com:1101']//select[#'actionType']"
+				itempath=".//select[#'actionType']"
+				fullname="PMI_MerchandisingPanelRepository.PmiMerchandisingPanel.ReportType"
+				id="a5d65c610fdc43c58252f41c5d352bbe"
+				timeout="40000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMI_MerchandisingPanel\PMI_MerchandisingPanel\TestCases\ReportGeneration\GenerateReport.cs"
+				codeline="108"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.539"
+			timeRelativeToTestModuleStartTime="00:13.539"
+			timeWallClock="17:08:04"
+			time="00:13.539"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'PmiMerchandisingPanel.Dropdownitem'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='mks.rtdtradetracker.com:1101']//select[#'actionType']/option[@value='3']"
+				itempath=".//select[#'actionType']/option[@value='3']"
+				fullname="PMI_MerchandisingPanelRepository.PmiMerchandisingPanel.Dropdownitem"
+				id="ad174a7cbfee41f98eddcd422b3f267e"
+				timeout="40000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMI_MerchandisingPanel\PMI_MerchandisingPanel\TestCases\ReportGeneration\GenerateReport.cs"
+				codeline="112"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.209"
+			timeRelativeToTestModuleStartTime="00:14.209"
+			timeWallClock="17:08:05"
+			time="00:14.209"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Dropdownitem' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='mks.rtdtradetracker.com:1101']//select[#'actionType']/option[@value='3']"
+				itempath=".//select[#'actionType']/option[@value='3']"
+				fullname="PMI_MerchandisingPanelRepository.PmiMerchandisingPanel.Dropdownitem"
+				id="ad174a7cbfee41f98eddcd422b3f267e"
+				timeout="40000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMI_MerchandisingPanel\PMI_MerchandisingPanel\TestCases\ReportGeneration\GenerateReport.cs"
+				codeline="113"
+				loglvl="Success"
+				itemindex="7">
+			</metainfo>
+		</item>
+	</activity>
+</report>

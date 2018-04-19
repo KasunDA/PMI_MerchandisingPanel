@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# Ranorex Studio 8.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C14EBEB6-E479-4ACC-87F4-55D83190CA74}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMI_MerchandisingPanel", "PMI_MerchandisingPanel\PMI_MerchandisingPanel.csproj", "{F0BF324F-B04E-4812-9FB8-EFBAEFCB5DE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0BF324F-B04E-4812-9FB8-EFBAEFCB5DE6}.Debug|x86.Build.0 = Debug|x86
+		{F0BF324F-B04E-4812-9FB8-EFBAEFCB5DE6}.Debug|x86.ActiveCfg = Debug|x86
+		{F0BF324F-B04E-4812-9FB8-EFBAEFCB5DE6}.Release|x86.Build.0 = Release|x86
+		{F0BF324F-B04E-4812-9FB8-EFBAEFCB5DE6}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

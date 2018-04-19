@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="17.07s"
+		durationms="17065"
+		type="root"
+		rid="3eda7c1fae49ce9"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="LIVINGROOM"
+		osversion="Windows 8 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="4/18/2018 2:55:54 PM"
+		timestampiso="2018-04-18T09:55:54"
+		endtime="4/18/2018 2:56:11 PM"
+		timeoutfactor="1"
+		module="Login">
+		<detail>
+			Login
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.299"
+			timeRelativeToTestModuleStartTime="00:05.299"
+			timeWallClock="14:55:59"
+			time="00:05.299"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varUserName, varPassword
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.487"
+			timeRelativeToTestModuleStartTime="00:05.487"
+			timeWallClock="14:56:00"
+			time="00:05.487"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'Login.Validate_LoginScreen'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='mks.rtdtradetracker.com:1101']//div[#'login']/section"
+				itempath=".//div[#'login']/section"
+				fullname="PMI_MerchandisingPanelRepository.Login.Validate_LoginScreen"
+				id="286f00e380ef4273ab07fedaf5f204e1"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMI_MerchandisingPanel\PMI_MerchandisingPanel\TestCases\Login\Login.cs"
+				codeline="108"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.092"
+			timeRelativeToTestModuleStartTime="00:17.092"
+			timeWallClock="14:56:11"
+			time="00:17.092"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

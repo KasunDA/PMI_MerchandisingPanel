@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="PMI_MerchandisingPanel"
+      id="18194593-fbb8-4b1b-8e68-67313a9d6064"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="PMI_MerchandisingPanel"
+      id="18194593-fbb8-4b1b-8e68-67313a9d6064"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

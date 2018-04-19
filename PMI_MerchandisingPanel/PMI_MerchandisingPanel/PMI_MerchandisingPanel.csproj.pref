@@ -1,0 +1,22 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="PMI_MerchandisingPanel.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="PMI_MerchandisingPanel.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="PMI_MerchandisingPanel.CustomCodeCollection.CustomCode.setDates(String startdate, String enddate)" />
+      <Element value="PMI_MerchandisingPanel.CustomCodeCollection.CustomCode.setDates(DateTime startdate, DateTime enddate)" />
+      <Element value="PMI_MerchandisingPanel.CustomCodeCollection.CustomCode.selectDropdownitemForLastVisit()" />
+      <Element value="PMI_MerchandisingPanel.CustomCodeCollection.CustomCode.selectDropdownitemForReportAction()" />
+      <Element value="PMI_MerchandisingPanel.CustomCodeCollection.CustomCode.selectDropdownitem()" />
+      <Element value="PMI_MerchandisingPanel.CustomCodeCollection.CustomCode.visitPanelSideBarList()" />
+    </Array>
+  </Properties>
+</Properties>

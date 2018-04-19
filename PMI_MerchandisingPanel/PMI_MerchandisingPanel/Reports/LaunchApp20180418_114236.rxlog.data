@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="24c0d3cf404143a7"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="LIVINGROOM"
+		osversion="Windows 8 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="4/18/2018 11:42:52 AM"
+		timestampiso="2018-04-18T06:42:52"
+		endtime="4/18/2018 11:42:59 AM"
+		timeoutfactor="1"
+		module="LaunchApp">
+		<detail>
+			LaunchApp
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.725"
+			timeRelativeToTestModuleStartTime="00:06.725"
+			timeWallClock="11:42:59"
+			time="00:06.725"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://google.com' with browser 'IE' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMI_MerchandisingPanel\PMI_MerchandisingPanel\TestCases\LaunchingApp\LaunchApp.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

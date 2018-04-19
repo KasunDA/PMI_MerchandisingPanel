@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="13ed0df00f1ad87c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="LIVINGROOM"
+		osversion="Windows 8 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="4/18/2018 12:16:09 PM"
+		timestampiso="2018-04-18T07:16:09"
+		endtime="4/18/2018 12:16:33 PM"
+		timeoutfactor="1"
+		module="LaunchApp">
+		<detail>
+			LaunchApp
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.101"
+			timeRelativeToTestModuleStartTime="00:05.101"
+			timeWallClock="12:16:14"
+			time="00:05.101"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site 'http://google.com' with browser 'IE' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMI_MerchandisingPanel\PMI_MerchandisingPanel\TestCases\LaunchingApp\LaunchApp.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.807"
+			timeRelativeToTestModuleStartTime="00:15.807"
+			timeWallClock="12:16:25"
+			time="00:15.807"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'Google.GoogleSearchBar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.google.com']//input[#'lst-ib']"
+				itempath=".//input[#'lst-ib']"
+				fullname="PMI_MerchandisingPanelRepository.Google.GoogleSearchBar"
+				id="6befa265259a46b3a109207dc5ae9493"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMI_MerchandisingPanel\PMI_MerchandisingPanel\TestCases\LaunchingApp\LaunchApp.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.051"
+			timeRelativeToTestModuleStartTime="00:20.051"
+			timeWallClock="12:16:29"
+			time="00:20.051"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'GoogleSearchBar' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.google.com']//input[#'lst-ib']"
+				itempath=".//input[#'lst-ib']"
+				fullname="PMI_MerchandisingPanelRepository.Google.GoogleSearchBar"
+				id="6befa265259a46b3a109207dc5ae9493"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMI_MerchandisingPanel\PMI_MerchandisingPanel\TestCases\LaunchingApp\LaunchApp.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.081"
+			timeRelativeToTestModuleStartTime="00:20.081"
+			timeWallClock="12:16:29"
+			time="00:20.081"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute InnerText to 'abcd' on item 'Google.GoogleSearchBar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.google.com']//input[#'lst-ib']"
+				itempath=".//input[#'lst-ib']"
+				fullname="PMI_MerchandisingPanelRepository.Google.GoogleSearchBar"
+				id="6befa265259a46b3a109207dc5ae9493"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMI_MerchandisingPanel\PMI_MerchandisingPanel\TestCases\LaunchingApp\LaunchApp.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:20.595"
+			timeRelativeToTestModuleStartTime="00:20.595"
+			timeWallClock="12:16:30"
+			time="00:20.595"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'Google.GoogleSearchBar' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.google.com']//input[#'lst-ib']"
+				itempath=".//input[#'lst-ib']"
+				fullname="PMI_MerchandisingPanelRepository.Google.GoogleSearchBar"
+				id="6befa265259a46b3a109207dc5ae9493"
+				timeout="60000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMI_MerchandisingPanel\PMI_MerchandisingPanel\TestCases\LaunchingApp\LaunchApp.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.770"
+			timeRelativeToTestModuleStartTime="00:23.770"
+			timeWallClock="12:16:33"
+			time="00:23.770"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Return}'.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMI_MerchandisingPanel\PMI_MerchandisingPanel\TestCases\LaunchingApp\LaunchApp.cs"
+				codeline="98"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

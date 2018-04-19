@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="42af3ed7-5c62-44aa-837b-161acebf94eb"
+mode="Desktop"
+rxversion="8.0">
+	<name>
+		LaunchPanel
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="LaunchPanel"
+	namespace="PMI_MerchandisingPanel.TestCases.LaunchingPanel">
+	</codegen>
+	<variables>
+		<var
+		id="6adc9fc3-3809-4565-ae9f-987fdec25bef"
+		name="varWebURL">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="CustomCode"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="launchBrowserWithUrl"
+		namespace="PMI_MerchandisingPanel.CustomCodeCollection"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="72d924a2-72c0-454f-aa1b-1c06d65c329f">
+				<argument
+				argname="url"
+				id="134c96cf-d813-4513-8bf8-b57656afe086"
+				variable="varWebURL">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="94ebf1cc-c7a4-4ced-befd-d0d7bea2316f"
+	name="PMI_MerchandisingPanelRepository"
+	relativepath="..\..\PMI_MerchandisingPanelRepository.rxrep"
+	rxversion="8.0">
+		<codegen
+		classname="PMI_MerchandisingPanelRepository"
+		namespace="PMI_MerchandisingPanel">
+		</codegen>
+		<rootfolder
+		id="9c5ab078-be6d-4a9d-b835-15a4baba7c69"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		LaunchPanel.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

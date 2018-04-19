@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="1801ca30236578fa"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="LIVINGROOM"
+		osversion="Windows 8 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="4/18/2018 11:01:30 AM"
+		timestampiso="2018-04-18T06:01:30"
+		endtime="4/18/2018 11:01:40 AM"
+		timeoutfactor="1"
+		module="LaunchApp">
+		<detail>
+			LaunchApp
+		</detail>
+		<errormessage>
+			Failed to open URL 'www.google.com' with browser Opera .
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.845"
+			timeRelativeToTestModuleStartTime="00:07.845"
+			timeWallClock="11:01:38"
+			time="00:07.845"
+			level="Info"
+			category="Website"
+			errimg=".\LaunchAp_5de0d606_f6226898_trace.jpg"
+			errthumb=".\LaunchAp_5de0d606_f6226898_trace_thumb.jpg">
+			<message>
+				Opening web site 'www.google.com' with browser 'Opera ' in maximized mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMI_MerchandisingPanel\PMI_MerchandisingPanel\TestCases\LaunchingApp\LaunchApp.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.515"
+			timeRelativeToTestModuleStartTime="00:09.515"
+			timeWallClock="11:01:40"
+			time="00:09.515"
+			level="Error"
+			category="Module"
+			errimg=".\LaunchAp_5de0d606_0584f33c_trace.jpg"
+			errthumb=".\LaunchAp_5de0d606_0584f33c_trace_thumb.jpg">
+			<message>
+				Failed to open URL 'www.google.com' with browser Opera .<br/>Failed to run application 'opera '.<br/>The system cannot find the file specified
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Host.OpenBrowser(String url, String browserName, String browserArgs, Boolean killExisting, Boolean maximized, Boolean clearCache, Boolean incognitoMode, Boolean clearCookies)
+   at PMI_MerchandisingPanel.TestCases.LaunchingApp.LaunchApp.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMI_MerchandisingPanel\PMI_MerchandisingPanel\TestCases\LaunchingApp\LaunchApp.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMI_MerchandisingPanel\PMI_MerchandisingPanel\TestCases\LaunchingApp\LaunchApp.cs"
+				codeline="83"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

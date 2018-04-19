@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="418043a79aec840"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="LIVINGROOM"
+		osversion="Windows 8 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="4/18/2018 4:37:43 PM"
+		timestampiso="2018-04-18T11:37:43"
+		endtime="4/18/2018 4:37:59 PM"
+		timeoutfactor="1"
+		module="GenerateReport">
+		<detail>
+			GenerateReport
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.612"
+			timeRelativeToTestModuleStartTime="00:06.627"
+			timeWallClock="16:37:50"
+			time="00:06.612"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>varStartDate, varEndDate
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.802"
+			timeRelativeToTestModuleStartTime="00:06.816"
+			timeWallClock="16:37:50"
+			time="00:06.802"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'PmiMerchandisingPanel.ReportType' at Center
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='mks.rtdtradetracker.com:1101']//select[#'actionType']"
+				itempath=".//select[#'actionType']"
+				fullname="PMI_MerchandisingPanelRepository.PmiMerchandisingPanel.ReportType"
+				id="a5d65c610fdc43c58252f41c5d352bbe"
+				timeout="40000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMI_MerchandisingPanel\PMI_MerchandisingPanel\TestCases\ReportGeneration\GenerateReport.cs"
+				codeline="108"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

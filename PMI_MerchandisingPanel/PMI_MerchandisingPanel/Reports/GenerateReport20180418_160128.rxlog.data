@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="6006c06cd88e074"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Fahad Shah"
+		rxversion="8.0.0.0"
+		host="LIVINGROOM"
+		osversion="Windows 8 64bit"
+		runtimeversion="4.0.30319.34209"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="4/18/2018 4:01:47 PM"
+		timestampiso="2018-04-18T11:01:47"
+		endtime="4/18/2018 4:01:56 PM"
+		timeoutfactor="1"
+		module="GenerateReport">
+		<detail>
+			GenerateReport
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.958"
+			timeRelativeToTestModuleStartTime="00:05.958"
+			timeWallClock="16:01:52"
+			time="00:05.958"
+			level="Info"
+			category="Set value">
+			<message>
+				Setting attribute InnerText to '12' on item 'PmiMerchandisingPanel.StartDate'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='mks.rtdtradetracker.com:1101']//input[#'startDate']"
+				itempath=".//input[#'startDate']"
+				fullname="PMI_MerchandisingPanelRepository.PmiMerchandisingPanel.StartDate"
+				id="9d90c90d57394ddf903a46d95fa93f1a"
+				timeout="40000"
+				codefile="c:\Users\Fahad Shah\Documents\Ranorex\RanorexStudio Projects\PMI_MerchandisingPanel\PMI_MerchandisingPanel\TestCases\ReportGeneration\GenerateReport.cs"
+				codeline="82"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

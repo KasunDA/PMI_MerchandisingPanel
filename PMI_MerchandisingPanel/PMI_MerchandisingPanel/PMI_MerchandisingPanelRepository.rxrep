@@ -1,0 +1,236 @@
+﻿<repository
+id="94ebf1cc-c7a4-4ced-befd-d0d7bea2316f"
+name="PMI_MerchandisingPanelRepository"
+rxversion="8.0">
+	<codegen
+	classname="PMI_MerchandisingPanelRepository"
+	namespace="PMI_MerchandisingPanel">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="9c5ab078-be6d-4a9d-b835-15a4baba7c69"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="431641f4-c263-4d11-abaf-a7b4633fa7ef"
+		isrooted="True"
+		name="PmiMerchandisingPanel"
+		refimgid="73d5ff02-1fc1-450d-a185-311ea73300da"
+		refpath="/dom[@domain='mks.rtdtradetracker.com:1101']"
+		searchtimeout="10000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,sectiontag"
+			capname="sectiontag"
+			id="286f00e3-80ef-4273-ab07-fedaf5f204e1"
+			name="Validate_LoginScreen"
+			refimgid="8ae69437-83de-4a25-b44a-5e79a6f86053"
+			refpath="/dom[@domain='mks.rtdtradetracker.com:1101']//div[#'login']/section"
+			searchtimeout="30000ms">
+				/dom[@domain='mks.rtdtradetracker.com:1101']//div[#'login']/section
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="ebde827b-d22b-4800-914b-5ca918a4ce85"
+			name="UserName"
+			refimgid="9914dc86-afd1-4676-9d0f-f78b2d58ae8b"
+			refpath="/dom[@domain='mks.rtdtradetracker.com:1101']//input[#'userName']"
+			searchtimeout="30000ms">
+				/dom[@domain='mks.rtdtradetracker.com:1101']//input[#'userName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="e9e2560f-96ef-426a-8728-7900a99e26d0"
+			name="Password"
+			refimgid="819d0267-9338-418d-8315-776b4e02417e"
+			refpath="/dom[@domain='mks.rtdtradetracker.com:1101']//input[#'password']"
+			searchtimeout="30000ms">
+				/dom[@domain='mks.rtdtradetracker.com:1101']//input[#'password']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="d66d4677-46fb-4fb8-9a6d-56779fb57cb5"
+			name="LoginButton"
+			refimgid="1ae62c17-83f6-4367-9c43-bc34848b9cc7"
+			refpath="/dom[@domain='mks.rtdtradetracker.com:1101']//div[#'login']/section/form[@name='loginform']/input[@name='Submit']"
+			searchtimeout="30000ms">
+				/dom[@domain='mks.rtdtradetracker.com:1101']//div[#'login']/?/?/form[@name='loginform']/input[@name='Submit']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="7f540051-e817-4f14-82f7-b6839a5671fc"
+			name="PanelSideBar"
+			refimgid="de3cf148-f696-4740-822f-a0a7806d16f6"
+			refpath="/dom[@domain='mks.rtdtradetracker.com:1101']//div[#'sidebar-menu']/div"
+			searchtimeout="30000ms">
+				/dom[@domain='mks.rtdtradetracker.com:1101']//div[#'sidebar-menu']/div
+			</item>
+			<item
+			capname="ultag"
+			id="9b844574-1529-4bb7-bae7-ce3caeae9dfe"
+			name="PanelSideBar_List"
+			refimgid="a5621a2a-6970-4922-bc22-156cd844fb57"
+			searchtimeout="30000ms">
+				/dom[@domain='mks.rtdtradetracker.com:1101']//div[#'sidebar-menu']/?/?/ul
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="d0cb6531-b3a7-42c9-9698-3603ba7405de"
+			name="Abnormality"
+			refimgid="ad256ace-db67-4f52-a04d-ec728d305329"
+			refpath="/dom[@domain='mks.rtdtradetracker.com:1101']//div[#'sidebar-menu']/div/ul/li[2]/a[@innertext='Abnormality']"
+			searchtimeout="30000ms">
+				/dom[@domain='mks.rtdtradetracker.com:1101']//div[#'sidebar-menu']/?/?/ul/?/?/a[@innertext='Abnormality']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="42d19a3f-5f4c-4397-8f1b-ab7aed5ab80c"
+			name="AbnormalityReportList"
+			refimgid="98fa9ac3-75d2-44bd-86b3-e098c83ba8b3"
+			refpath="/dom[@domain='mks.rtdtradetracker.com:1101']//div[#'sidebar-menu']/div/ul/li[2]/ul/li/a[@innertext=' Abnormality Report List']"
+			searchtimeout="30000ms">
+				/dom[@domain='mks.rtdtradetracker.com:1101']//div[#'sidebar-menu']/?/?/ul/?/?/ul/?/?/a[@innertext=' Abnormality Report List']
+			</item>
+			<item
+			addcaps="unknown,webelement,formtag"
+			capname="formtag"
+			id="e756ceeb-c5ea-424e-97e6-477c7b2eb65e"
+			name="MerchandiserVisitForm"
+			refimgid="8b816736-f4df-4065-a454-6f4727b922c7"
+			refpath="/dom[@domain='mks.rtdtradetracker.com:1101']//form[#'merchandiserVisitForm']"
+			searchtimeout="30000ms">
+				/dom[@domain='mks.rtdtradetracker.com:1101']//form[#'merchandiserVisitForm']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="a5d65c61-0fdc-43c5-8252-f41c5d352bbe"
+			name="ReportType"
+			refimgid="5b409d85-b19e-494c-8b43-934e3c2403e4"
+			refpath="/dom[@domain='mks.rtdtradetracker.com:1101']//select[#'actionType']"
+			searchtimeout="30000ms">
+				/dom[@domain='mks.rtdtradetracker.com:1101']//select[#'actionType']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="9d90c90d-5739-4ddf-903a-46d95fa93f1a"
+			name="StartDate"
+			refimgid="eb7f54e5-91b8-4f14-a0a9-5b7a5cb00348"
+			refpath="/dom[@domain='mks.rtdtradetracker.com:1101']//input[#'startDate']"
+			searchtimeout="30000ms">
+				/dom[@domain='mks.rtdtradetracker.com:1101']//input[#'startDate']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="d8162cc5-6ece-43a1-b9af-07d532ef52e0"
+			name="EndDate"
+			refimgid="a4f3814a-1ff1-40f3-9c0c-8ff6c31f1e17"
+			refpath="/dom[@domain='mks.rtdtradetracker.com:1101']//input[#'endDate']"
+			searchtimeout="30000ms">
+				/dom[@domain='mks.rtdtradetracker.com:1101']//input[#'endDate']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="2cffc806-eb91-4754-a967-25be28233fc7"
+			name="LastVisit"
+			refimgid="f70f4893-2fed-49ad-b0b1-e6486a13d39f"
+			refpath="/dom[@domain='mks.rtdtradetracker.com:1101']//select[#'lastVisit']"
+			searchtimeout="30000ms">
+				/dom[@domain='mks.rtdtradetracker.com:1101']//select[#'lastVisit']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="c6f11200-cfef-401b-a222-c2548c66841b"
+			name="GenerateReportButton"
+			refimgid="8e397f9a-1451-4a86-b7cc-ef3f9ec2f4eb"
+			refpath="/dom[@domain='mks.rtdtradetracker.com:1101']//input[#'btnId']"
+			searchtimeout="30000ms">
+				/dom[@domain='mks.rtdtradetracker.com:1101']//input[#'btnId']
+			</item>
+			<basepath>
+				/dom[@domain='mks.rtdtradetracker.com:1101']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="5e60c39c-baf1-439f-aadf-dd7b91dbe185"
+		isrooted="True"
+		name="GoogleChromeDialogPopUp"
+		refpath="/form[@title='Do you want Google Chrome to save your password for this site?']"
+		searchtimeout="10000ms"
+		usecache="True">
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="9facf0c1-4e94-44c2-b8e0-b9951620b098"
+			name="ConfimationPopUpDialog"
+			refimgid="70a49cc5-7bc3-4da6-a0b4-04dff0dbcf80"
+			searchtimeout="100ms">
+				/form[@title~'^Do\ you\ want\ Google\ Chrome']/container/container[1]
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="afb986c1-7b82-4ec0-92ed-964a3e2ce9d8"
+			name="NeverButton"
+			refimgid="2de2a6e2-10da-4890-b92f-856a3feda9ce"
+			refpath="/form[@title='Do you want Google Chrome to save your password for this site?']/container[@accessiblename='']/container[2]/container[2]/button[@accessiblename='Never']"
+			searchtimeout="100ms">
+				/form[@title~'^Do\ you\ want\ Google\ Chrome']/container/container[2]/?/?/button[@accessiblename='Never']
+			</item>
+			<basepath>
+				/form[@title~'^Do\ you\ want\ Google\ Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKFSURBVDhPrZJdSFNhHMaXQUFEBaZTZiV1EUQX
+FkRJ6c6m07lvdVPYlujSuygSlOiiEYSQfd10sZp2nFtiu7GPmyBtaoua86smltNzLKQIhGB5BurG
+eXrPOpqjj6se+PHe/H/P/+Xllfz3wCnJmDdrK5lazT3WrB5gK1XDbFWZn5znpk0lmeLYnzNjURWw
+NuMUEcFWl4NIYEylYIwlYAwKsCZljDGVOcTx9AyqC49EqlXfZ81EXCuoKksrYPQU5nQKzBmo86Im
+xunMuHDRvBDWyzEtCH+5AaMjBVo5ZrXFyXmNvEC0JZIDPU2Go676ZK+hCG/Jlg9k86duN16OLPDP
+wos8M/Ec8z4jvnhO4FvvcXB9hYg/LhoUdVLga3Ttf9CI2ktVGKo4CdbjxmU/B+PNOAwE25043s9E
+kQgokQwUIzlUhGSweBl+y+ZUQb6vsT/fdwYH6QbcqqEQGP26LutuEK7H0faIw3KkFXxICX5ECYQJ
+o7ptqYI8T31wr9eBfT4H9NfseBJegl4QRVlLaO3hsBK9CoyrCKWEEvBv1DtSBbKuur493gYICEWv
+J6dXKm//kjXtHPzBGJKRBlEuBT9GbhJVb00V5NL2Vll3PdZQP3ViILKIZi+HJvcSPIEYJibvp21P
+hBSzKVmIzGvLy+2yr+Z66rDG4d6zaBnuxJWgD00PW5AYq1iXMU4eM0Q1i/rPZHdYnTlElHad3oAd
+0rtWRF7o0uREiBrDlGWLqIqBZJO00+qS0nZkE1Egi7bBQRvAj5dvkBXv+AmlTLR+T1aH1ZLttkZ3
+01Zkumrw+ZVmWRBXR6jYSohqw5R8uzj67+ykjbuOtasKPvafOsSF5DnrnyYtEskPM43KINSheKEA
+AAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
